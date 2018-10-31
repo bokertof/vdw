@@ -7,6 +7,8 @@ class VDW:
     '''
     Calculate vdw surface any molecule
     
+    vdw radii from www.ccdc.cam.ac.uk
+    
     '''
     vdw_radii = {'Ac': 2.0, 'Al': 2.0, 'Am': 2.0, 'Sb': 2.0, 'Ar': 1.88, 'As': 1.85, 'At': 2.0, 'Ba': 2.0, 'Bk': 2.0, 'Be': 2.0, 'Bi': 2.0, 'Bh': 2.0, 'B': 2.0, 'Br': 1.85,
        'Cd': 1.58, 'Cs': 2.0, 'Ca': 2.0, 'Cf': 2.0, 'C': 1.7, 'Ce': 2.0, 'Cl': 1.75, 'Cr': 2.0, 'Co': 2.0, 'Cu': 1.4, 'Cm': 2.0, 'Ds': 2.0, 'Db': 2.0, 'Dy': 2.0,
@@ -71,7 +73,6 @@ class VDW:
 
     def generate_point(self, xyz_point):
         '''
-
         generate point on surface of sphere
 
         '''
